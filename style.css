@@ -1,0 +1,153 @@
+html{
+    font-family:'Quicksand',sans-serif;
+}
+h1{
+    background-color:#a5a5a5;
+    font-size: 55px;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px 0px 0px 0px 0px;    
+    margin-top:100px;
+
+}
+body{
+    background-color:#cccccc;
+    
+}
+.img{
+    display:inline;
+    margin: 10px 10px 10px 10px;
+    
+}
+img{
+    border-radius:30px;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+.i15{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+a{
+    color:#595959;
+    font-size:17px;
+}
+.iphone15{
+    background-color:white;
+   
+}
+.iphone15 > h1{
+    background-color:#cccccc;
+}
+.colors{
+    text-align:center;
+}
+
+hr{
+    border:solid black 1px;
+}
+.list-container ul{
+    display: inline-block;
+    padding: 0;
+    list-style-type:none;
+}
+ul > img{
+    border-radius:20px;
+}
+ul{
+    font-weight: 500;
+    font-size: 30px;
+}
+.list-container{
+    text-align:center;
+    display:block;
+    margin-bottom: 10px;
+}
+li{
+    margin-bottom:10px;
+}
+.button{
+    padding: 10px;
+    background-color: #cccccc;
+    color: #595959;
+    font-size:20px;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+
+    
+}
+.order-button{
+    display:flex;
+    text-align: center;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
+}
+.order-a{
+    text-align:center;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#595959;
+    width: 100%;
+    color:white;
+}
+nav ul li{
+    float:left;
+}
+
+nav ul li a {
+    display:block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    color:white;
+
+}
+nav ul li a:hover{
+    background-color:#cccccc;
+    color:#40513B;
+}
+
+button:hover{
+    background-color:#979797;
+    color:#3a3a3a;
+}
+.specs{
+    font-size:15px;
+}
+.spectitle{
+    background-color:#1991ff;
+}
+.spectable{
+    background-color:rgb(231, 231, 231);
+    padding:50px;
+    padding-top:10px;
+    margin:20px;
+    margin-top:100px;
+}
+iframe{
+    border-radius:20px;
+    margin:20px;
+    float:left;
+}
+.videos{
+    display:flex;
+    justify-content:space-around;
+}
+.spec nav ul{
+    position:absolute;
+}
